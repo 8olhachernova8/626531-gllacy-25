@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Olha Chernova](https://up.htmlacademy.ru/htmlcss/25/user/626531).
-* Наставник: `[Mariya Chernova]`.
+* Наставник: `Неизвестно`.
 
 ---
 
