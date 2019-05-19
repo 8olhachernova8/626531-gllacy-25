@@ -12,40 +12,55 @@
     <nav class="main-navigator">
       <ul class="site-navigation">
         <li><a href="catalog.html">Каталог</a></li>
+        <div class="half-width">
+          <select>
+          <option value="orange" selected>Новинки</option>
+          <option value="green">Сливочное</option>
+          <option value="orange" selected>Щербеты</option>
+          <option value="green">Фруктовый лёд</option>
+          <option value="orange" selected>Мелорин</option>
+          <select>
+          </div>
         <li><a href="shipping-payment.html">Доставка и оплата</a></li>
         <li><a href="info.html">О компании</a></li>
       </ul>
       <ul class="user-navigation">
         <li><a href="search.html"><img src="img/loupe.svg" width="17" height="17" alt="loupe"></a></li>
+        <li><input type="search" name="search" id="search"></li>
         <li><a href="entrance.html">Вход</a></li>
         <li><a href="basket.html">2 товара</a></li>
       </ul>
-      <table>
-          <tr>
-            <td><button>Удалить</button></td>
-            <td><img class="" width="" height="" alt="Пломбир с апельсиновым джемом"></td>
-            <td><p>Пломбир с апельсиновым джемом</p></td>
-            <td>
-              <span>1.5 кг</span> x
-              <span>200 руб.</span>
-            </td>
-            <td>
-             350 руб.
-            </td>
-          </tr>
-          <tr>
-            <td><button>Удалить</button></td>
-            <td><img class="" width="" height="" alt="Клубничный пломбир с присыпкой из белого шоколада"></td>
-            <td>Клубничный пломбир с присыпкой из белого шоколада</td>
-            <td>
-              <span>1.5 кг</span> x
-              <span>300 руб.</span>
-            </td>
-            <td>
-             450 руб.
-            </td>
-          </tr>
-        </table>
+      <div class="table-basket">
+        <table>
+            <tr>
+              <td><button>Удалить</button></td>
+              <td><img class="" width="" height="" alt="Пломбир с апельсиновым джемом"></td>
+              <td><p>Пломбир с апельсиновым джемом</p></td>
+              <td>
+                <span>1.5 кг</span> x
+                <span>200 руб.</span>
+              </td>
+              <td>
+               350 руб.
+              </td>
+            </tr>
+            <tr>
+              <td><button>Удалить</button></td>
+              <td><img class="" width="" height="" alt="Клубничный пломбир с присыпкой из белого шоколада"></td>
+              <td>Клубничный пломбир с присыпкой из белого шоколада</td>
+              <td>
+                <span>1.5 кг</span> x
+                <span>300 руб.</span>
+              </td>
+              <td>
+               450 руб.
+              </td>
+            </tr>
+            <tr>
+              <td>Итого:750 руб.</td>
+            </tr>
+          </table>
+      </div>
     </nav>
   </header>
   <main class="inner-catalog">

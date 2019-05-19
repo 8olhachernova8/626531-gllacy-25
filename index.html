@@ -13,43 +13,50 @@
       <ul class="site-navigation">
         <li><a href="catalog.html">Каталог</a></li>
         <div class="half-width">
-          <select>
-          <option value="orange" selected>Новинки</option>
-          <option value="green">Сливочное</option>
-          <option value="orange" selected>Щербеты</option>
-          <option value="green">Фруктовый лёд</option>
-          <option value="orange" selected>Мелорин</option>
-          <select>
+          <ul>
+          <li class="orange">Новинки</li>
+          <li class="green"><a href="inner.html">Сливочное</a></li>
+          <li class="orange">Щербеты</li>
+          <li class="green">Фруктовый лёд</li>
+          <li class="orange">Мелорин</li>
+          </ul>
           </div>
         <li><a href="shipping-payment.html">Доставка и оплата</a></li>
         <li><a href="info.html">О компании</a></li>
       </ul>
-      <ul class="user-navigation">
-        <li><a href="search.html"><img src="img/loupe.svg" width="17" height="17" alt="loupe"></a></li>
-        <li><input type="search" name="search" id="search"></li>
-        <li><a href="entrance.html">Вход</a></li>
+      <div class="navigation">
+        <ul class="user-navigation">
+          <li><a href="search.html"><img src="img/loupe.svg" width="17" height="17" alt="loupe"></a></li>
+          <li><input type="search" name="search" id="search"></li>
+          <li><a href="entrance.html">Вход</a></li>
+          <form action="/echo" method="post">
+            <textarea type="email">Электронная почта</textarea>
+            <input type="email" id="email" name="email">
+            <textarea for="password">Пароль</textarea>
+            <input type="password" id="password" name="password">
+            <div class="buttons">
+              <button>Войти</button>
+              <div class="register">
+                <a href="#">Забыли пароль?</a>
+                <a href="#">Новая регистрация</a>
+              </div>
+            </div>
+          </form>
+          <li><a href="basket.html">Пусто</a></li>
+        </ul>
+      </div>
+      <section class="feedback">
         <form action="/echo" method="post">
-          <label for="email">Электронная почта</label>
-          <input type="email" id="email" name="email">
-          <label for="password">Пароль</label>
-          <input type="password" id="password" name="password">
+          <p>Мы обязательно вам ответим!</p>
+          <textarea type="text" id="name" name="name" placeholder="Как Вас зовут?"></textarea>
+          <textarea type="text" id="email" name="email" placeholder="Ваша почта для ответа?"></textarea>
+          <textarea type="text" id="coment" name="coment" placeholder="Напишите что-нибудь..."></textarea>
           <div class="buttons">
-            <button>Войти</button>
-            <button>Забыли пароль?</button>
-            <button>Новая регистрация</button>
+            <button>Отправить</button>
+            <button>Закрыть</button>
           </div>
         </form>
-        <li><a href="basket.html">Пусто</a></li>
-      </ul>
-      <form action="/echo" method="post">
-        <p>Мы обязательно вам ответим!</p>
-        <input type="text" id="name" name="name" value="Как Вас зовут?">
-        <input type="text" id="email" name="email" value="Ваша почта для ответа?">
-        <input type="text" id="coment" name="coment" value="Напишите что-нибудь...">
-        <div class="buttons">
-          <button>Отправить</button>
-        </div>
-      </form>
+      </section>
     </nav>
   </header>
   <main class="main-info">
