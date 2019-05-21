@@ -11,14 +11,18 @@
     <a class="main-header-logo"> <img src="img/logo.svg" width="154" height="64" alt="Логотип магазина 'Глейси'"> </a>
     <nav class="main-navigator">
       <ul class="site-navigation">
-        <li><a href="catalog.html">Каталог</a><div class="site-subnavigation"></div></li>
-          <ul>
-          <li class="orange">Новинки</li>
-          <li class="green"><a href="inner.html">Сливочное</a></li>
-          <li class="orange"><a href="inner.html">Щербеты</a></li>
-          <li class="green"><a href="inner.html">Фруктовый лёд</a></li>
-          <li class="orange"><a href="inner.html">Мелорин</a></li>
-          </ul>
+        <li>
+          <a href="catalog.html">Каталог</a>
+          <div class="site-subnavigation">
+            <ul>
+              <li class="orange">Новинки</li>
+              <li class="green"><a href="inner.html">Сливочное</a></li>
+              <li class="orange"><a href="inner.html">Щербеты</a></li>
+              <li class="green"><a href="inner.html">Фруктовый лёд</a></li>
+              <li class="orange"><a href="inner.html">Мелорин</a></li>
+            </ul>
+          </div>
+        </li>
         <li><a href="shipping-payment.html">Доставка и оплата</a></li>
         <li><a href="info.html">О компании</a></li>
       </ul>
@@ -27,23 +31,29 @@
           <li>
             <a href="search.html"><img src="img/loupe.svg" width="17" height="17" alt="loupe"></a>
             <div class="search">
-              <form name="search" method="post" action="#"></form>
+              <form name="search" method="post" action="#">
                 <input type="search" name="text-search" placeholder="Что ищем?" aria-label="Поиск по сайту">
+              </form>
             </div>
           </li>
-          <li><a href="entrance.html">Вход</a><div><form action="/echo" method="post"></div></li>
-            <input class="email-user" type="email" name="user-email" id="user-email">
-            <label class="user-email" for="user-email">Электронная почта</label>
-            <input class="password-user" type="password" name="user-password" id="user-password">
-            <label class="user-password" for="user-password">Пароль</label>
-            <div class="buttons">
-              <button>Войти</button>
-              <div class="register">
-                <a href="#">Забыли пароль?</a>
-                <a href="#">Новая регистрация</a>
-              </div>
+          <li><a href="entrance.html">Вход</a>
+            <div>
+              <form action="/echo" method="post">
+                <input class="email-user" type="email" name="user-email" id="user-email">
+                <label class="user-email" for="user-email">Электронная почта</label>
+                <input class="password-user" type="password" name="user-password" id="user-password">
+                <label class="user-password" for="user-password">Пароль</label>
+                <div class="buttons">
+                  <button>Войти</button>
+                  <div class="register">
+                    <a href="#">Забыли пароль?</a>
+                    <a href="#">Новая регистрация</a>
+                  </div>
+                </div>
+              </form>
             </div>
-          
+          </li>
+
           <li><a href="basket.html">Пусто</a></li>
         </ul>
       </div>
@@ -84,6 +94,8 @@
     </div>
     <article class="ten-options">
       <h3>Новое в нашем блоге</h3>
+
+
       <a href="#">10 способов сервировки фруктовых щербетов к столу</a>
     </article>
     <div class="adress">
