@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  background-color: #859d8f;
+  background-image: url("");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+/*header*/
+
+
+
+/*body*/
+
+.main-header-logo {
+  width: 154px;
+  height: 64px;
+  object-fit: contain;
+}
+
+.site-navigation, .subnavigation-list-item {
+  font-size: 16px;
+  line-height: 1.13;
+  color: #ffffff;
+}
+
+.contacts {
+  font-size: 14px;
+  line-height: 1.14;
+  color: #ffffff;
+}
+
+{
+  font-size: 22px;
+  line-height: 1.09;
+  color: #ffffff;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.38;
+  color: #ffffff;
+}
+
+.shop-glasy{
+  font-size: 24px;
+  line-height: 1.25;
+  color: #323232;
+}
+
+.provider, .production, .document, .standart {
+  font-size: 13px;
+  line-height: 1.38;
+  color: #ffffff;
+}
+
+.news-blog {
+  font-size: 16px;
+  line-height: 1.38;
+  color: #323232;
+}
+
+.ways {
+  font-size: 24px;
+  line-height: 1.25;
+  color: #323232;
+}
+
+.subscription {
+  font-size: 16px;
+  line-height: 1.38;
+  color: #5a5a5a;
+}
+
+/*footer*/
+
+
+.twitter-icon, .instagram-icon, .facebook-icon, .vkonakte-icon {
+  width: 38px;
+  height: 38px;
+  opacity: 0.5;
+  background-color: #ffffff;
+}
+
+
+.logo-htmlacademy {
+  width: 108px;
+  height: 39px;
+}
+
+{
+  font-size: 12px;
+  line-height: 1.5;
+  color: #ffffff;
+}
