@@ -7,12 +7,8 @@ body {
   line-height: 24px;
   font-weight: bold;
   color: #ffffff;
-  text-transform: uppercase;
 
   background-color: #859d8f;
-  background-image: url("");
-  background-position: top center;
-  background-repeat: no-repeat;
 }
 
 a {
@@ -20,7 +16,47 @@ a {
 }
 /*header*/
 
+.delivery {
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+}
 
+.company-history {
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.entrance {
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.two-goods {
+  font-size: 14px;
+  line-height: 16px;
+  color: #323232;
+}
+
+.forgot-password {
+  font-size: 13px;
+  line-height: 24px;
+  color: #323232;
+}
+
+.new-registration {
+  font-size: 13px;
+  line-height: 24px;
+  color: #323232;
+}
+
+.empty {
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--white-two);
+}
 
 /*body*/
 
@@ -30,58 +66,135 @@ a {
   object-fit: contain;
 }
 
-.site-navigation, .subnavigation-list-item {
+.site-navigation {
   font-size: 16px;
-  line-height: 1.13;
+  line-height: 18px;
   color: #ffffff;
+}
+
+.ice-catalog {
+  font-size: 14px;
+  line-height: 16px;
+  color: #323232;
+}
+
+.catalog {
+  font-size: 16px;
+  line-height: 18px;
+  color: #323232;
 }
 
 .contacts {
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 16px;
   color: #ffffff;
 }
 
-{
-  font-size: 22px;
-  line-height: 1.09;
-  color: #ffffff;
+.fast-view {
+  font-size: 18px;
+  line-height: 24px;
+  color: #fefefe;
 }
 
-.description {
+.ice-choice {
   font-size: 16px;
-  line-height: 1.38;
+  line-height: 22px;
   color: #ffffff;
+}
+
+.menu-ice-catalog {
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.order {
+  font-size: 18px;
+  line-height: 24px;
+  color: #fefefe;
+}
+
+.ice-cream-img {
+  border-radius: 150px;
+  width: 267px;
+  height: 267px;
 }
 
 .shop-glasy{
   font-size: 24px;
-  line-height: 1.25;
+  line-height: 30px;
   color: #323232;
 }
 
 .provider, .production, .document, .standart {
   font-size: 13px;
-  line-height: 1.38;
+  line-height: 18px;
   color: #ffffff;
 }
 
 .news-blog {
   font-size: 16px;
-  line-height: 1.38;
+  line-height: 22px;
+  color: #323232;
+}
+
+.ice-cream {
+  font-size: 16px;
+  line-height: 22px;
+  color: #323232;
+}
+
+.ecological {
+  font-size: 16px;
+  line-height: 22px;
+  color: #323232;
+}
+
+.natural {
+  font-size: 16px;
+  line-height: 22px;
+  color: #323232;
+}
+
+.temperature {
+  font-size: 16px;
+  line-height: 22px;
   color: #323232;
 }
 
 .ways {
   font-size: 24px;
-  line-height: 1.25;
+  line-height: 30px;
   color: #323232;
 }
 
 .subscription {
   font-size: 16px;
-  line-height: 1.38;
+  line-height: 22px;
   color: #5a5a5a;
+}
+
+.value {
+  font-size: 45px;
+  line-height: 45px;
+  color: #ffffff;
+}
+
+.weight {
+  font-size: 30px;
+  line-height: 45px;
+  color: #ffffff;
+}
+
+.send {
+  font-size: 18px;
+  line-height: 24px;
+  color: #fefefe;
+}
+
+.shut-down {
+  width: 18px;
+  height: 17px;
 }
 
 /*footer*/
@@ -94,14 +207,14 @@ a {
   background-color: #ffffff;
 }
 
-
-.logo-htmlacademy {
-  width: 108px;
-  height: 39px;
+.information-shop {
+  font-size: 13px;
+  line-height: 16px;
+  color: #ffffff;
 }
 
-{
+.html-academy {
   font-size: 12px;
-  line-height: 1.5;
-  color: #ffffff;
+  line-height: 16px;
+  color: #fefefe;
 }
