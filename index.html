@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <title>Интернет-магазин мороженого «Глейси»</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/normalize.css" rel="normalize">
   <link href="css/stylesheet.css" rel="stylesheet">
 </head>
 
@@ -39,22 +39,21 @@
               </form>
             </div>
           </li>
-          <li><a class="entrance" href="entrance.html">Вход</a></li>
-            <div>
-              <form action="/echo" method="post">
-                <input class="email-user" type="email" name="user-email" id="user-email">
-                <label class="user-email" for="user-email">Электронная почта</label>
-                <input class="password-user" type="password" name="user-password" id="user-password">
-                <label class="user-password" for="user-password">Пароль</label>
-                <div class="buttons">
-                  <button>Войти</button>
-                  <div class="register">
-                    <a class="forgot-password" href="#">Забыли пароль?</a>
-                    <a class="new-registration" href="#">Новая регистрация</a>
-                  </div>
+          <li>
+            <a class="entrance" href="entrance.html">Вход</a>
+            <form action="/echo" method="post">
+              <input class="email-user" type="email" name="user-email" id="user-email">
+              <label class="user-email" for="user-email">Электронная почта</label>
+              <input class="password-user" type="password" name="user-password" id="user-password">
+              <label class="user-password" for="user-password">Пароль</label>
+              <div class="buttons">
+                <button>Войти</button>
+                <div class="register">
+                  <a class="forgot-password" href="#">Забыли пароль?</a>
+                  <a class="new-registration" href="#">Новая регистрацияя</a>
                 </div>
-              </form>
-            </div>
+              </div>
+            </form>
           </li>
           <li><a class="empty" href="basket.html">Пусто</a></li>
         </ul>

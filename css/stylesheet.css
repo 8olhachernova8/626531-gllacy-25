@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   padding: 0;
@@ -15,6 +16,13 @@ a {
   text-decoration: none;
 }
 /*header*/
+
+.site-navigation {
+	display: flex; 
+	justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
 
 .delivery {
   font-size: 16px;
@@ -55,7 +63,7 @@ a {
 .empty {
   font-size: 14px;
   line-height: 16px;
-  color: var(--white-two);
+  color: #ffffff;
 }
 
 /*body*/
@@ -81,7 +89,7 @@ a {
 .catalog {
   font-size: 16px;
   line-height: 18px;
-  color: #323232;
+  color: #ffffff;
 }
 
 .contacts {
@@ -199,6 +207,18 @@ a {
 
 /*footer*/
 
+.footer-social {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 80px;
+  border-top: 1px solid;
+}
+
+.social-button {
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+}
 
 .twitter-icon, .instagram-icon, .facebook-icon, .vkonakte-icon {
   width: 38px;
