@@ -2,13 +2,13 @@
 body {
   margin: 0;
   padding: 0;
-
+  
   font-family: "Roboto", Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: bold;
   color: #ffffff;
-
+  
   background-color: #859d8f;
 }
 
@@ -17,23 +17,74 @@ a {
 }
 /*header*/
 
+.main-header-logo {
+  width: 154px;
+  height: 64px;
+  object-fit: contain;
+  float: left;
+  width: 64px;
+  min-height: 50px;
+  margin-right: 24px;
+}
+
 .site-navigation {
 	display: flex; 
-	justify-content: space-between;
+	justify-content: flex-start;
   align-items: center;
   flex-direction: row;
+  float: left;
+  width: 80px;
+  min-height: 50px;
+  margin-right: 205px;
+  flex-wrap: wrap;
+  width: 696px;
+  margin: 0px;
+  padding: 0px;
+  padding-top: 15px;
+  padding-left: 13px;
+  box-sizing: border-box;
+  list-style: none;
 }
+
+
 
 .delivery {
   font-size: 16px;
   line-height: 18px;
   color: #ffffff;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 16px;
+  margin-right: 10px;
+  padding: 4px 10px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.catalog {
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 16px;
+  margin-right: 10px;
+  padding: 4px 10px;
+  display: inline-block;
+  box-sizing: border-box;
 }
 
 .company-history {
   font-size: 16px;
   line-height: 18px;
   color: #ffffff;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 16px;
+  margin-right: 10px;
+  padding: 4px 10px;
+  display: inline-block;
+  box-sizing: border-box;
 }
 
 .entrance {
@@ -68,16 +119,41 @@ a {
 
 /*body*/
 
-.main-header-logo {
-  width: 154px;
-  height: 64px;
-  object-fit: contain;
+.column-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.column-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.column-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.ice-cream-card {
+  margin-right: 26px;
+}
+
+.ice-choice-caramel {
+  margin-right: 0;
 }
 
 .site-navigation {
   font-size: 16px;
   line-height: 18px;
   color: #ffffff;
+  float: left;
+}
+
+.user-navigation {
+  float: right;
 }
 
 .ice-catalog {
@@ -86,11 +162,16 @@ a {
   color: #323232;
 }
 
-.catalog {
-  font-size: 16px;
-  line-height: 18px;
-  color: #ffffff;
+.shop-title {
+  padding: 25px 20px 25px 20px;
+  background-repeat: repeat;
+  background-size: auto;
+  background-position: center;
 }
+
+
+
+
 
 .contacts {
   font-size: 14px;
@@ -132,6 +213,14 @@ a {
   font-size: 24px;
   line-height: 30px;
   color: #323232;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.glaysy-standarts-info {
+  padding: 25px 20px 25px 20px;
+  background-size: auto;
+  background-position: left center;
 }
 
 .provider, .production, .document, .standart {
@@ -207,6 +296,13 @@ a {
 
 /*footer*/
 
+.store-info {
+  justify-content: flex-start;
+  display: flex;
+  width: 379px;
+  padding-top: 15px;
+}
+
 .footer-social {
   display: flex;
   justify-content: space-evenly;
@@ -215,9 +311,28 @@ a {
 }
 
 .social-button {
-  display: inline-block;
   text-align: center;
   white-space: nowrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 28px;
+  list-style: none;
+  width: 267px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.instagram-button {
+  margin-left: 14px;
+}
+
+.facebook-button {
+  margin-left: 14px;
+}
+
+.vkonakte-button {
+  margin-left: 14px;
 }
 
 .twitter-icon, .instagram-icon, .facebook-icon, .vkonakte-icon {
@@ -231,10 +346,37 @@ a {
   font-size: 13px;
   line-height: 16px;
   color: #ffffff;
+  position: relative;
+  font-weight: bold;
 }
 
 .html-academy {
   font-size: 12px;
   line-height: 16px;
   color: #fefefe;
+}
+
+.company-info {
+  margin: 0px;
+  padding: 0px;
+  margin-right: 31px;
+  list-style: none;
+}
+
+.info-company {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.logo-htmlacademy {
+  margin-bottom: 46px;
+}
+
+.html-academy {
+  margin-bottom: 26px;
+}
+
+.visually-hidden {
+  display: none;
 }
